@@ -1,5 +1,5 @@
 declare namespace FFCreatorSpace {
-  interface FFLottieConfProps {
+  interface FFLottieConfProps extends FFImageConf {
     data?: any; // Adjust the type according to what `data` should represent
     file?: string;
     filepath?: string;
